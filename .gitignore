@@ -89,3 +89,4 @@ tags
 .tags
 !tags/
 gtags.files
+/custom.el
