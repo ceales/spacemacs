@@ -64,7 +64,9 @@
   - [[#spacemacs-visual][Spacemacs-visual]]
 - [[#music][Music]]
   - [[#alda-layer][Alda Layer]]
+  - [[#pianobar][Pianobar]]
   - [[#spotify][Spotify]]
+  - [[#tidalcycles][TidalCycles]]
 - [[#operating-systems][Operating systems]]
   - [[#kubernetes][Kubernetes]]
   - [[#nixos][NixOS]]
@@ -981,6 +983,14 @@ Features:
 - Play portions of a buffer, or the entire buffer,
   through a running Alda server.
 
+** Pianobar
+[[file:+music/pianobar/README.org][+music/pianobar/README.org]]
+
+This layer integrates an online music service into Spacemacs.
+
+Features:
+- Support for listening to music from within Emacs via [[https://6xq.net/pianobar/][Pianobar]].
+
 ** Spotify
 [[file:+music/spotify/README.org][+music/spotify/README.org]]
 
@@ -988,6 +998,16 @@ This layer integrates an online music service into Spacemacs.
 
 Features:
 - Support for listening to music from within Emacs via [[https://www.spotify.com][Spotify]].
+
+** TidalCycles
+[[file:+music/tidalcycles/README.org][+music/tidalcycles/README.org]]
+
+This layer adds a major mode to control [[https://tidalcycles.org][TidalCycles]], a programming language
+for live coding.
+
+Features:
+- =tidal-mode= to interact with TidalCycles
+- Spacemacs friendly key bindings
 
 * Operating systems
 ** Kubernetes
