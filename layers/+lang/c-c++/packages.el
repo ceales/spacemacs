@@ -54,6 +54,7 @@
     (progn
       (add-hook 'c-mode-local-vars-hook #'spacemacs//c-c++-setup-backend)
       (add-hook 'c++-mode-local-vars-hook #'spacemacs//c-c++-setup-backend)
+      (add-hook 'c++-mode-local-vars-hook #'spacemacs//c-c++-ignore-constexpr-when-indenting)
       (put 'c-c++-backend 'safe-local-variable 'symbolp)
       (when c-c++-default-mode-for-headers
         (add-to-list 'auto-mode-alist

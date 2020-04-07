@@ -20,6 +20,10 @@
      ((configuration-layer/layer-used-p 'lsp) 'lsp-clangd)
      (t nil))))
 
+(defun spacemacs//c-c++-ignore-constexpr-when-indenting ()
+  "Fix indentation of constexpr by adding it to the list of c-noise-macro-names."
+  (add-to-list 'c-noise-macro-names "constexpr"))
+
 (defun spacemacs//c-c++-setup-backend ()
   "Conditionally setup c-c++ backend."
   (pcase (spacemacs//c-c++-backend)
